@@ -6,9 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(exam.IsAlpha('a'))
-	fmt.Println(exam.IsAlpha('R'))
-	fmt.Println(exam.IsAlpha('2'))
+	fmt.Println(exam.Average([]int{14, 12, 7, 5, 17}))
+	fmt.Println(exam.Average([]int{13, -1, 8, 15, 15}))
 }
-
-
